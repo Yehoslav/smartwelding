@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}Home Page {% endblock %}
+{% block style %}
+.column {
+   float: left;
+   width: 50%;
+}
+
+.row {
+   content: "";
+   display: table;
+   clear: both;
+}
+{% endblock %}
+
+{% block body %}
+<h1>Here you can create a WPS</h1>
+
+<div class="row">
+    <div class="column form-view" id="form-view">
+        <form method="post">
+            <label for="thickness">Thickness:</label>
+            <input type="number"
+                   name="thickness"
+                   id="thickness">
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="column wps-view" id="wps-view">
+        {{ dwg }}
+    </div>
+</div>
+
+{% endblock %}
