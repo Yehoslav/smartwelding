@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>{% block title %}{% endblock %}</title>
+     <link rel="stylesheet" href="static/css/index.css">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
     <style>
         {% block style %}{% endblock %}
     </style>
+    <script type="text/javascript" src="/static/js/wps.js"></script>
 </head>
 <body>
 
