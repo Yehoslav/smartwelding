@@ -1,15 +1,9 @@
 {% extends "base.html" %}
 {% block title %}Home Page {% endblock %}
 {% block style %}
-.column {
-   float: left;
-   width: 50%;
-}
-
-.row {
-   content: "";
-   display: table;
-   clear: both;
+.wps-view {
+    width: 157.5mm;
+    height: 222.75mm;
 }
 {% endblock %}
 
@@ -19,10 +13,42 @@
 <div class="row">
     <div class="column form-view" id="form-view">
         <form method="post">
-            <label for="thickness">Thickness:</label>
+            <label for="thickness1">Grosime tabla 1:</label>
             <input type="number"
-                   name="thickness"
-                   id="thickness">
+                   name="thickness1"
+                   class="input"
+                   id="thickness1"
+                   min="0"
+                   onchange="checkNumberField(this);">
+            <br>
+            <label for="steel-grade1">Material de baza 1:</label>
+            <input type="text"
+                   name="steel-grade1"
+                   class="input"
+                   id="steel-grade1"
+                   onchange="checkNumberField(this);">
+            <br>
+            <label for="thickness2">Grosime tabla 2:</label>
+            <input type="number"
+                   name="thickness2"
+                   class="input"
+                   id="thickness2"
+                   min="0"
+                   onchange="checkNumberField(this);">
+            <br>
+            <label for="steel-grade2">Material de baza 2:</label>
+            <input type="text"
+                   name="steel-grade2"
+                   class="input"
+                   id="steel-grade2"
+                   onchange="checkNumberField(this);">
+            <br>
+            <label for="filler-material">Material de adaos:</label>
+            <input type="text"
+                   name="filler-material"
+                   class="input"
+                   id="filler-material"
+                   onchange="checkNumberField(this);">
             <br>
             <button type="submit">Submit</button>
         </form>
