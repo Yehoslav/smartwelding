@@ -1,68 +1,66 @@
 """Testing editing svgs from python"""
 import os
+from dataclasses import dataclass
 
-from cairosvg import svg2pdf
+from website.settings import APP_STATICFILES_DIR
 
-from website.settings import WELDING
+
+# from cairosvg import svg2pdf
+
+@dataclass
+class BaseMaterial:
+    thickness: float
+    group: str
+    norm: str
+    name: str
+
+
+@dataclass
+class FillerMaterial:
+    norm: str
+    # TODO: since filler material thickness is standardized consider creating an Enum
+    thickness: float
+    name: str
+    dry: bool
 
 
 class WPSMessages:
     """A data objet with the parameters needed to create a WPS"""
-    thickness: str
-    bevel: str
-    joint: str
-    material: str
-    preparation: str
+    filler_material: FillerMaterial
+    base_material1: BaseMaterial
+    base_material2: BaseMaterial
 
-    def __init__(self, messages: dict | None):
-        if messages is not None:
-            self.set_attributes(messages)
-        else:
-            self.set_attributes(
-                {
-                    'thickness': 'th',
-                    'bevel': '',
-                    'joint': '',
-                    'material': '',
-                    'preparation': ''
-                }
-            )
-
-    def set_attributes(self, attributes: dict):
-        self.thickness = attributes['thickness']
-        self.bevel = attributes['bevel']
-        self.joint = attributes['joint']
-        self.material = attributes['material']
-        self.preparation = attributes['preparation']
-
-    def __str__(self):
-        return f"thickness: {self.thickness}\nbevel: {self.bevel}"
+    def __init__(self, filler_material, base_material1, base_material2):
+        self.filler_material = filler_material
+        self.base_material1 = base_material1
+        self.base_material2 = base_material2
 
 
 def generate_svg(data: WPSMessages):
     """Generates a WPS with the given data."""
-    with open(os.path.join(WELDING, 'test.svg'), 'r', encoding='UTF-8') as file:
+    with open(os.path.join(APP_STATICFILES_DIR, 'svg/wps-template.svg'), 'r', encoding='UTF-8') as file:
         dwg = file.read()
 
-    dwg = dwg.replace('$manuf', 'Wojciech Grzegorczyk') \
-        .replace('$material', data.material) \
-        .replace('$joint_nr', 'P1') \
-        .replace('$joint_type', data.joint) \
-        .replace('$thickness', data.thickness) \
-        .replace('$position', 'flat PA') \
-        .replace('$out_diameter', '---') \
-        .replace('$clean', data.preparation) \
-        .replace('$sealing_run', 'Single-side welding')
+    dwg = dwg.replace('$nr_procedeu', '111') \
+        .replace('$nume_material1', data.base_material1.name) \
+        .replace('$nume_material2', data.base_material2.name) \
+        .replace('$grosime1', str(data.base_material1.thickness)) \
+        .replace('$grosime2', str(data.base_material2.thickness)) \
+        .replace('$tip_imbinare', 'tip imbinare') \
+        .replace('$pozitia', 'flat PA') \
+        .replace('$uscare', 'N/A') \
+        .replace('$norma1', 'N/A') \
+        .replace('$tpr', '100')
 
     return dwg
 
 
 def generate_pdf(data: WPSMessages):
     """Generates a WPS with the given data."""
-    with open('test.svg', 'r', encoding='UTF-8') as file:
+    with open('../static/svg/test.svg', 'r', encoding='UTF-8') as file:
         dwg = file.read()
 
-    with open('sect1.svg', 'r', encoding='UTF-8') as file:
+    with open('../static/svg/sect1.svg', 'r', encoding='UTF-8') as file:
         sect = file.read()
 
     dwg = dwg.replace('$manuf', 'Wojciech Grzegorczyk') \
@@ -79,4 +77,4 @@ def generate_pdf(data: WPSMessages):
     with open('test2.svg', 'w', encoding='UTF-8') as file:
         file.write(dwg)
 
-    svg2pdf(dwg, write_to='test2.pdf')
+    # svg2pdf(dwg, write_to='test2.pdf')
