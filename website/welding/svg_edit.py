@@ -22,9 +22,10 @@ class FillerMaterial:
     thickness: float
     name: str
     dry: bool
+    procedure_type: str
 
 
-class WPSMessages:
+class WPSData:
     """A data objet with the parameters needed to create a WPS"""
     filler_material: FillerMaterial
     base_material1: BaseMaterial
@@ -36,26 +37,32 @@ class WPSMessages:
         self.base_material2 = base_material2
 
 
-def generate_svg(data: WPSMessages):
+def generate_svg(data: WPSData):
     """Generates a WPS with the given data."""
     with open(os.path.join(APP_STATICFILES_DIR, 'svg/wps-template.svg'), 'r', encoding='UTF-8') as file:
         dwg = file.read()
 
-    dwg = dwg.replace('$nr_procedeu', '111') \
+    dwg = dwg.replace('$nr_procedeu', data.filler_material.procedure_type) \
+        .replace('$marca_mat_adaos', data.filler_material.name) \
+        .replace('$norma_mat_adaos', data.filler_material.norm) \
+        .replace('$dim_mat_adaos', str(data.filler_material.thickness)) \
         .replace('$nume_material1', data.base_material1.name) \
         .replace('$nume_material2', data.base_material2.name) \
         .replace('$grosime1', str(data.base_material1.thickness)) \
         .replace('$grosime2', str(data.base_material2.thickness)) \
         .replace('$tip_imbinare', 'tip imbinare') \
         .replace('$pozitia', 'flat PA') \
-        .replace('$uscare', 'N/A') \
-        .replace('$norma1', 'N/A') \
-        .replace('$tpr', '100')
+        .replace('$uscare', "Da" if data.filler_material.dry else "Fara") \
+        .replace('$norma1', data.base_material1.norm) \
+        .replace('$norma2', data.base_material2.norm) \
+        .replace('$grupa1', data.base_material1.group) \
+        .replace('$grupa2', data.base_material2.group) \
+        .replace('$tpr', 'N/A')
 
     return dwg
 
 
-def generate_pdf(data: WPSMessages):
+def generate_pdf(data: WPSData):
     """Generates a WPS with the given data."""
     with open('../static/svg/test.svg', 'r', encoding='UTF-8') as file:
         dwg = file.read()
