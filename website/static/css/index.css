@@ -1,3 +1,7 @@
+body {
+    padding: 0px 30px;
+}
+
 .error {
     background: pink;
     border-color: red;
@@ -5,6 +9,7 @@
 
 .input {
     border-radius: 5px;
+    border-style: solid;
 }
 
 .column {
@@ -15,6 +20,17 @@
    content: "";
    display: table;
    clear: both;
+}
+
+.hidden {
+display: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: max-content auto;
+    row-gap: 5px;
+    column-gap: 5px;
 }
 
 .wps-view {
