@@ -1,9 +1,9 @@
 {% extends "base.html" %}
-{% block title %}Home Page {% endblock %}
+{% block title %}WPS-form{% endblock %}
 {% block style %}
 .wps-view {
-width: 157.5mm;
-height: 222.75mm;
+    width: 157.5mm;
+    height: 222.75mm;
 }
 {% endblock %}
 
@@ -20,27 +20,24 @@ height: 222.75mm;
                     <label for="steel-grade1">Denumirea:</label>
                     <div>
                         <input type="text"
-                               name="steel-norm1"
+                               name="steelNorm1"
                                class="input"
-                               id="steel-norm1"
+                               id="steelNorm1"
                                list="material-norm-list"
-                               placeholder="Norma"
-                               onchange="checkNumberField(this);">
+                               placeholder="Norma">
                         <datalist id="material-norm-list">
                             <option value="EN 10025-2">
                         </datalist>
                         <input type="text"
-                               name="steel-grade1"
+                               name="steelGrade1"
                                class="input"
-                               id="steel-grade1"
-                               onchange="checkNumberField(this);">
+                               id="steelGrade1">
                     </div>
-                    <label for="steel-group1">Grupa:</label>
+                    <label for="steelGroup1">Grupa:</label>
                     <input type="text"
-                           name="steel-group1"
+                           name="steelGroup1"
                            class="input"
-                           id="steel-group1"
-                           onchange="checkNumberField(this);">
+                           id="steelGroup1">
                     <label for="thickness1">Grosime:</label>
                     <input type="number"
                            name="thickness1"
@@ -59,22 +56,21 @@ height: 222.75mm;
                 <div class="base-material grid">
                     <label for="steel-grade2">Denumirea:</label>
                     <div>
-                        <input type="text" name="steel-norm2"
+                        <input type="text" name="steelNorm2"
                                class="input"
-                               id="steel-norm2"
+                               id="steelNorm2"
                                list='material-norm-list'
                                placeholder="Norma">
                         <input type="text"
-                               name="steel-grade2"
+                               name="steelGrade2"
                                class="input"
-                               id="steel-grade2">
+                               id="steelGrade2">
                     </div>
-                    <label for="steel-group2">Grupa:</label>
+                    <label for="steelGroup2">Grupa:</label>
                     <input type="text"
-                           name="steel-group2"
+                           name="steelGroup2"
                            class="input"
-                           id="steel-group2"
-                           onchange="checkNumberField(this);">
+                           id="steelGroup2">
                     <label for="thickness2">Grosime:</label>
                     <input type="number"
                            name="thickness2"
@@ -89,19 +85,19 @@ height: 222.75mm;
             <div class="card">
                 <h3>Material de adaos:</h3>
                 <div class="grid">
-                    <label for="procedee">Precedeul de sudare:</label>
-                    <select name="procedee" id="procedee" onchange="changeFillerStandards()">
+                    <label for="process">Precedeul de sudare:</label>
+                    <select name="process" id="process" onchange="changeFillerStandards()">
                         <option value="111" selected>111 - Sudare Manuala cu Electrod Invelit</option>
                         <option value="131">131 - MIG (Metal Inert Gas)</option>
                         <option value="135">135 - MAG (Metal Active Gas)</option>
                         <option value="141">141 - WIG/TIG (Wolfram/Tungsten Inert Gas)</option>
                     </select>
-                    <label for="filler-material">Denumirea:</label>
+                    <label for="fillerMaterial">Denumirea:</label>
                     <div id='filler-input'>
                         <input type="text"
                                class="input"
-                               name="filler-norm"
-                               id="norm-input"
+                               name="fillerNorm"
+                               id="fillerNorm"
                                list="norm-list"
                                placeholder="Norma">
                         <span class="err-message" style="display: none;">
@@ -113,15 +109,15 @@ height: 222.75mm;
                             <option value="ISO 14341-A">
                         </datalist>
                         <input type="text"
-                               name="filler-material"
+                               name="fillerMaterial"
                                class="input"
-                               id="filler-material"
+                               id="fillerMaterial"
                                onchange="checkFillerMaterial(this);">
                         <button type="button" style="width: 40px"
                                 onclick="console.log('on hover popup(add manufacturer\'s brand)\nonclick(add new input field)')">+</button>
                     </div>
-                    <label for="filler_thickness">Dimensiuni:</label>
-                    <select name="filler_thickness" id="filler_thickness">
+                    <label for="fillerThickness">Dimensiuni:</label>
+                    <select name="fillerThickness" id="fillerThickness">
                         <option value="2">2 mm</option>
                         <option value="2.5">2.5 mm</option>
                         <option value="3.2" selected>3.2 mm</option>
@@ -129,23 +125,23 @@ height: 222.75mm;
                         <option value="5">5 mm</option>
                     </select>
                     <input type="checkbox"
-                           name="dry"
+                           name="drying"
                            class="input"
-                           id="dry">
-                    <label for="filler_thickness">se usuca</label>
+                           id="drying">
+                    <label for="drying">se usuca</label>
                 </div>
             </div>
 
             <div class="card hidden" id="refractary">
                 <h3>Electrod nefuzibil:</h3>
                 <div class="grid">
-                    <label for="electrode_type">Tip:</label>
+                    <label for="refractaryType">Tip:</label>
                     <input class="input"
-                           id="electrode_type"
+                           id="refractaryType"
                            type="text"
-                           name="electrode_type">
-                    <label for="electrode_diameter">Diametru:</label>
-                    <select name="electrode_diameter" id="electrode_diameter">
+                           name="refractaryType">
+                    <label for="refractaryDiameter">Diametru:</label>
+                    <select name="refractaryDiameter" id="refractaryDiameter">
                         <option value="0.5">0.5 mm</option>
                         <option value="1.0">1.0 mm</option>
                         <option value="1.6">1.6 mm</option>
@@ -161,26 +157,26 @@ height: 222.75mm;
             <div class="card hidden" id="gas">
                 <h3>Gaz:</h3>
                 <div class="grid">
-                    <label for="gas_up_type">De protectie:</label>
+                    <label for="gasCoverType">De protectie:</label>
                     <input class="input"
-                           id="gas_up_type"
+                           id="gasCoverType"
                            type="text"
-                           name="gas_up_type">
-                    <label for="gas_up_debit">Debit:</label>
+                           name="gasCoverType">
+                    <label for="gasCoverDebit">Debit:</label>
                     <input class="input"
-                           id="gas_up_debit"
-                           name="gas_up_debit"
+                           id="gasCoverDebit"
+                           name="gasCoverDebit"
                            type="number"
                            onchange="checkNumberField(this);">
-                    <label for="gas_down_type">La radacina:</label>
+                    <label for="gasRootType">La radacina:</label>
                     <input class="input"
-                           id="gas_down_type"
-                           name="gas_down_type"
+                           id="gasRootType"
+                           name="gasRootType"
                            type="text">
-                    <label for="gas_down_debit">Debit:</label>
+                    <label for="gasRootDebit">Debit:</label>
                     <input class="input"
-                           id="gas_down_debit"
-                           name="gas_down_debit"
+                           id="gasRootDebit"
+                           name="gasRootDebit"
                            type="number"
                            onchange="checkNumberField(this);">
                 </div>
@@ -205,7 +201,9 @@ height: 222.75mm;
             </div>
             <br>
 
-            <button type="submit">Submit</button>
+            <input type="button" value="Previzualizeaza WPS" name="button" onclick="submitWPS(this.form)">
+
+            <!-- <button type="button">Submit</button> -->
         </form>
     </div>
 
