@@ -11,37 +11,6 @@ const chemEls = [
   ['Si', false],
   ['Cu', false]
 ]
-//   // Get the next element that hasn't yet an input field
-//   getNext () {
-//     for (const el in this) {
-//       if (typeof this[el] === 'boolean' && this[el] === false) {
-//         this[el] = true
-//         return el
-//       }
-//     }
-//   },
-//   // Get all the chemical elements for wich an input field could be created
-//   getAvailable () {
-//     const avl = []
-//     for (const el in this) {
-//       if (this[el] === false) {
-//         avl.push(el)
-//       }
-//     }
-//     return avl
-//   },
-//   // TODO: its a quick function, so please think of something better
-//   // Count the number of created fields
-//   countTrue () {
-//     let count = 0
-//     for (const el in this) {
-//       if (this[el] === true) {
-//         count++
-//       }
-//     }
-//     return count
-//   }
-// }
 
 function getChemComp () {
   const chemList = document.getElementById('chem-inputs')
@@ -87,13 +56,6 @@ function getEl (el) {
 
 function updateDropdown () {
   const chemList = document.getElementById('chem-inputs')
-  // console.log(chemList.children[1])
-  // for (const el in chemEls) {
-  //   if (typeof chemEls[el] === 'boolean') {
-  //     chemEls[el] = false
-  //   }
-  // }
-
   chemEls.forEach(item => { item[1] = false })
 
   for (const li in chemList.children) {
