@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>{% block title %}{% endblock %}</title>
-     <link rel="stylesheet" href="static/css/index.css">
+     <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
     <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
     <style>
         {% block style %}{% endblock %}
@@ -16,5 +16,7 @@
     {% block body %}{% endblock %}
 </div>
 
+{% block scripts %}
+{% endblock %}
 </body>
 </html>
