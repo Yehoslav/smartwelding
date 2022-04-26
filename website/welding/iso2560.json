@@ -1,0 +1,119 @@
+{
+    "B": {
+        "strength": {
+            "43": 430,
+            "49": 490,
+            "55": 550,
+            "57": 570
+        },
+        "impact": {
+            "nos": "27 J",
+            "U"  : "47 J"
+        },
+        "thermal_treatment": {
+	    "nos": "No treatment",
+            "P" : "postheat",
+            "A" : "preheat",
+            "AP": "preheat and postheat"
+        },
+        "chemical_composition": {
+            "nos"  : [["Mn"], [1.0]],
+            "-1"   : [["Mn"], [1.0]],
+            "-1M3" : [["Mo"], [1.0]],
+            "-3M2" : [["Mn", "Mo"], [1.5, 0.4]],
+            "-3M3" : [["Mn", "Mo"], [1.5, 0.5]],
+            "-N1"  : [["Ni"], [1.5]],
+            "-N2"  : [["Ni"], [1.0]],
+            "-N3"  : [["Ni"], [1.5]],
+            "-3N3" : [["Mn", "Ni"], [1.5, 1.5]],
+            "-N5"  : [["Ni"], [2.5]],
+            "-N7"  : [["Ni"], [3.5]],
+            "-N13" : [["Ni"], [6.5]],
+            "-N2M3": [["Ni", "Mo"], [1.0, 0.5]],
+            "-NC"  : [["Ni", "Cu"], [0.5, 0.4]],
+            "-CC"  : [["Cr", "Cu"], [0.5, 0.4]],
+            "-NCC" : [["Ni", "Cr", "Cu"], [0.2, 0.6, 0.5]],
+            "-NCC1": [["Ni", "Cr", "Cu"], [0.6, 0.6, 0.5]],
+            "-NCC2": [["Ni", "Cr", "Cu"], [0.3, 0.2, 0.5]],
+            "Z"    : "Any other agreed composition"
+        },
+        "covering": {
+            "03" : ["Rutile basic", "All", "a.c. and d.c. (+-)"],
+            "10" : ["Cellulosic", "All", "d.c. (+)"],
+            "11" : ["Cellulosic", "All", "a.c. and d.c. (+)"],
+            "12" : ["Rutile", "All", "a.c. and d.c. (-)"],
+            "13" : ["Rutile", "All", "a.c. and d.c. (+-)"],
+            "14" : ["Rutile + iron powder", "All", "a.c. and d.c. (+-)"],
+            "15" : ["Basic", "All", "d.c. (+)"],
+            "16" : ["Basic", "All", "a.c. and d.c. (+)"],
+            "18" : ["Basic + ron powder", "All", "a.c. and d.c. (+)"],
+            "19" : ["Limenite", "All", "a.c. and d.c. (+-)"],
+            "20" : ["Iron oxide", "PA, PB", "a.c. and d.c. (-)"],
+            "24" : ["Rutile + iron powder", "PA, PB", "a.c. and d.c. (+-)"],
+            "27" : ["Iron oxide + iron powder", "PA, PB", "a.c. and d.c. (+-)"],
+            "28" : ["Basic + iron powder", "PAB, PB, PC", "a.c. and d.c. (+)"],
+            "40" : ["Not specified", "All", "as recomended"],
+            "45" : ["Basic", "All", "d.c(+)"],
+            "48" : ["Basic", "All", "a.c. and d.c. (+)"]
+        }
+    },
+    "A": {
+        "strength": {
+            "35": [355, [440, 570], 22],
+            "38": [380, [470, 600], 20],
+            "42": [420, [440, 640], 20],
+            "46": [460, [440, 680], 20],
+            "50": [500, [440, 720], 18]
+        },
+        "impact": {
+            "Z": "No requiriment",
+            "A": 20,
+            "0": 0,
+            "1": -10,
+            "2": -20,
+            "3": -30,
+            "4": -40,
+            "5": -50,
+            "6": -60
+        },
+        "chemical_composition": {
+            "nos"  : [[0.0, 2.0], [0.0, 0.0], [0.0, 0.0]],
+            "Mo"   : [[0.0, 1.4], [0.3, 0.6], [0.0, 0.0]],
+            "MnMo" : [[1.4, 2.0], [0.3, 0.6], [0.0, 0.0]],
+            "1Ni"  : [[0.0, 1.4], [0.0, 0.0], [0.6, 1.2]],
+            "Mn1Ni": [[1.4, 2.0], [0.0, 0.0], [0.6, 1.2]],
+            "2Ni"  : [[0.0, 1.4], [0.0, 0.0], [1.8, 2.6]],
+            "Mn2Ni": [[1.4, 2.0], [0.0, 0.0], [1.2, 2.6]],
+            "3Ni"  : [[0.0, 1.4], [0.0, 0.0], [2.6, 3.8]],
+            "1NiMo": [[0.0, 1.4], [0.3, 0.6], [0.6, 1.2]],
+            "Z": "Any other agreed composition"
+        },
+        "covering": {
+            "A" : "Acid covering",
+            "C" : "Cellulosic covering",
+            "R" : "Rutile covering",
+            "RR": "Rutile thick covering",
+            "RC": "Rutile-cellulosic covering",
+            "RA": "Rutile-acid covering",
+            "RB": "Rutile-basic covering",
+            "B" : "Basic covering"
+        },
+        "eff-and-current": {
+            "1": [[0, 105], "a.c. and d.c."],
+            "2": [[0, 105], "d.c."],
+            "3": [[0, 125], "a.c. and d.c."],
+            "4": [[0, 125], "d.c."],
+            "5": [[125, 160], "a.c. and d.c."],
+            "6": [[125, 160], "d.c."],
+            "7": [[160, 0], "a.c. and d.c."],
+            "8": [[160, 0], "d.c."]
+        },
+        "position": {
+            "1": ["PA", "PB", "PC", "PD", "PE", "PF", "PG"],
+            "2": ["PA", "PB", "PC", "PD", "PE", "PF"],
+            "3": ["PA", "PB"],
+            "4": ["PA"],
+            "5": ["PA", "PB", "PG"]
+        }
+    }
+}
