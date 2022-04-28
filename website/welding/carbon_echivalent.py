@@ -19,10 +19,17 @@ class Steel:
         self.Al = steel_data['Al'] if 'Al' in steel_data else 0
         self.Cu = steel_data['Cu'] if 'Cu' in steel_data else 0
 
+    def __str__(self):
+        return f"{self.C}%C, {self.Mn}%Mn, {self.Cr}%Cr, {self.Mo}%Mo," + \
+               f"{self.V}%V, {self.Ni}%Ni, {self.Cu}%Cu"
+
 
 def ceiiw(steel: Steel):
     return steel.C + steel.Mn / 6 + (steel.Cr + steel.Mo + steel.V) / 5 + (steel.Ni + steel.Cu) / 15
 
+def ceiiw_formula(steel: Steel) -> str:
+    return f"{steel.C}%C + {steel.Mn}%Mn/6 + ({steel.Cr}%Cr + {steel.Mo}%Mo + {steel.V}%V)/5" + \
+           f"+ ({steel.Ni}%Ni + {steel.Cu}%Cu)/15"
 
 def cewes(steel: Steel) -> float:
     return steel.C + steel.Si/24 + steel.Mn/6 + steel.Ni/40 + steel.Cr/5 + steel.Mo/4 + steel.V/14

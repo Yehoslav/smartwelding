@@ -19,33 +19,38 @@ MIG/MAG
                    class="input"
                    id="steel-norm1"
                    list="material-norm-list"
-                   placeholder="Norma">
+                   placeholder="Norma"
+                   onchange="getSteels(this)">
             <datalist id="material-norm-list">
-                <option value="EN 10025-2">
+                <option value="EN 10025">
                 <option value="EN 10028">
                 <option value="EN 10225">
             </datalist>
             <input type="text"
                    name="steel-grade"
                    class="input"
-                   id="steel-grade">
+                   id="steel-grade"
+                   list="steel-list"
+                   onchange="getChemComposition(this)">
+            <datalist id="steel-list">
+            </datalist>
         </div>
     </div>
 
-    <div id="chem_comp" class="chem-comp grid">
-        <label for="add-chem-comp">Compozitia chimica:</label>
+    <div id="edit_chem_comp" style="display: none" class="chem-comp grid">
+        <label for="chem-inputs">Compozitia chimica:</label>
         <div>
-            <ul id='chem-inputs'>
-            </ul>
-            <button id='btn' onclick='addNewChem(this)'>+ element</button>
+            <ul id='chem-inputs'></ul>
+            <button id='btn' onclick='addNewChemInput()'>adauga element</button>
         </div>
-    </div>
+    </div><br>
 
-    <div id="weldability" class="weldability grid">
-        <label for="add-chem-comp">Sudabilitatea:</label>
-        <div id='carb_eq'>
-        </div>
-        <button onclick='getCarbEq()'>calculeaza</button>
+    <div id="chem_comp" class="chem_comp"></div>
+    <br>
+
+    <div id="weldability" class="weldability">
+        <div id='carb_eq'></div>
+        <button onclick='getCarbEq()'>Verifica sudabilitatea</button>
     </div>
 
 

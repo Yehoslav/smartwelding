@@ -14,10 +14,13 @@ def parameters():
 @param_view.route('/carb-eq', methods=['GET', 'POST'])
 def carb_eq():
     if request.method == 'POST':
-        from website.welding.carbon_echivalent import Steel, ceiiw
+        from website.welding.carbon_echivalent import Steel, ceiiw, ceiiw_formula
         data: dict = request.get_json()
         float_data = {key: float(value) for key, value in data.items()}
-        return "ciiw: "+str(ceiiw(Steel(float_data)))
+        steel = Steel(float_data)
+        formula = ceiiw_formula(steel)
+        ceq = round(ceiiw(steel), 2)
+        return jsonify([formula, ceq])
     return 'Calculul carbonului echivalent nu a fost implementat inca'
 
 

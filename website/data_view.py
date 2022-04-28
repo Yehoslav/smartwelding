@@ -42,9 +42,22 @@ def steels():
             f'standards/json/{request_data["norm"]}.json'), 'r', encoding='UTF-8') as file:
             norm = json.load(file)
         return_data = norm['steels']
-        if 'fields' in request_data:
-            return_data = [ data[request_data['fields']] for data in return_data ]
-        return jsonify(return_data)
+        print(request_data)
+        match request_data:
+            case {'norm': _, 'fields': 'ch_comp', 'steel': steel}:
+                for data in return_data:
+                    print(f"{data['name']=} == {steel}")
+                    if data['name'] == steel:
+                        print(json.dumps(data, indent=2))
+                        return_data = list(data['ch_comp'].items())
+                        break
+                else:
+                    return_data = {}
+            case {'norm': _, 'fields': 'name'}:
+                return_data = [ data['name'] for data in return_data ]
+        print(return_data)
 
+        return jsonify(return_data)
+    return 'Error', 400
 
 
