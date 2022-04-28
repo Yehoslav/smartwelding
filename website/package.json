@@ -1,0 +1,29 @@
+{
+  "name": "welding.unitbv",
+  "version": "1.0.0",
+  "description": "O colectie de unelte menite sa ajute la proectarea imbinarilor sudate, creat in cadrul Universitatii Transilvania din Brasov",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/python_flask_app/website.git"
+  },
+  "keywords": [
+    "welding"
+  ],
+  "author": "Yehoslav Rudenco",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/python_flask_app/website/issues"
+  },
+  "homepage": "https://github.com/python_flask_app/website#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0"
+  }
+}
