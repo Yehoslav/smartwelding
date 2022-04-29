@@ -1,4 +1,6 @@
-# Pocket Engineer web app created with flask
+# SmartWelding aplicație web
 
-The Poket Engineer web app will be a wrapper for the Welding package that will be the focus of the final project.
+SmartWelding este o aplicație web in dezvoltare, care urmărește să ofere un set de unelte utile la proiectarea 
+îmbinărilor sudate.
+
 
