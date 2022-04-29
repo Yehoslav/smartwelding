@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="wps-template.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview168"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.62716049"
+     inkscape:cx="-118.78937"
+     inkscape:cy="560.4626"
+     inkscape:window-width="1900"
+     inkscape:window-height="1023"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="text" />
+  <title
+     id="title92762">WPS Template</title>
+  <style
+     id="style58773">
+	.capitol { 
+	    font-size:10.5833px;
+	}
+	.value { font-weight:normal;    font-size:4.23333px; }
+	.label { font-weight:bold;    font-size:4.23333px; }
+  </style>
+  <defs
+     id="defs2" />
+  <g
+     id="bg">
+    <rect
+       style="display:inline;fill:#ffffff;stroke-width:1.43123;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect92658"
+       width="210"
+       height="297"
+       x="0"
+       y="0" />
+  </g>
+  <g
+     id="borders"
+     style="display:inline">
+    <rect
+       id="rect10971"
+       width="204.54063"
+       height="284.54065"
+       x="2.7296829"
+       y="5.2296805"
+       style="fill:none;stroke:#000000;stroke-width:0.459361;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265621;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 2.5002195,23.185797 H 207.50022"
+       id="path22801" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265621;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 2.5,41.158962 h 205"
+       id="path22801-8" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.265621;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 2.5,52.83295 h 205"
+       id="path22801-8-6" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.265621;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 2.5,99.528906 h 205"
+       id="path22801-8-6-7" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.265621;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 2.5,146.22486 h 205"
+       id="path22801-8-6-7-5" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.183309;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 2.5,169.57284 h 97.63325"
+       id="path22801-8-6-7-5-1" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.192024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 100.13325,169.57284 H 207.27032"
+       id="path22801-8-6-7-5-1-3" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.265621;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 2.5658963,186.10058 H 207.5659"
+       id="path22801-8-6-7-5-1-0" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.183309;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 2.5,157.89887 h 97.63325"
+       id="path22801-8-6-7-5-2" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.251611;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 23.325176,64.499938 H 207.27032"
+       id="path22801-8-6-6" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.251611;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 23.325,76.173926 H 207.27014"
+       id="path22801-8-6-6-1" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.251611;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 23.325,87.847914 H 207.27014"
+       id="path22801-8-6-6-1-3" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.162588;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 23.325,111.1959 h 76.80825"
+       id="path22801-8-6-6-1-3-7" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.161781;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 131.22308,134.54381 h 76.04724"
+       id="path22801-8-6-6-1-3-7-5" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.161781;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 131.22308,157.8918 h 76.047"
+       id="path22801-8-6-6-1-3-7-5-4" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.161802;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 131.20335,111.19581 h 76.06697"
+       id="path22801-8-6-6-1-3-7-5-4-0" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.251611;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 23.325,122.86988 H 207.27014"
+       id="path22801-8-6-6-1-3-6" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.162588;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 23.325176,134.54388 H 100.13325"
+       id="path22801-8-6-6-1-3-74" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.266505px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 100.13325,23.185797 V 289.82443"
+       id="path90999" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.266;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 50.133,52.83295 v 93.39191"
+       id="path159359" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.266;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 23.325176,52.83295 v 93.39191"
+       id="path159359-0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.266;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 131.17592,52.83295 V 169.57284"
+       id="path159359-0-8" />
+  </g>
+  <g
+     id="text"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="line-height:0.4"
+       x="103.6698"
+       y="110.0538"
+       id="text20480"><tspan
+         id="tspan20478"
+         style="stroke-width:0.264583"
+         x="103.6698"
+         y="110.0538"
+         class="label">Electrod </tspan><tspan
+         style="stroke-width:0.264583"
+         x="103.6698"
+         y="115.513"
+         id="tspan24310"
+         class="label">nefuzibil</tspan></text>
+    <text
+       xml:space="preserve"
+       style="line-height:0.4"
+       x="103.75446"
+       y="156.75676"
+       id="text20480-64"><tspan
+         id="tspan20478-6"
+         style="stroke-width:0.264583"
+         x="103.75446"
+         y="156.75676"
+         class="label">Debitul</tspan><tspan
+         style="stroke-width:0.264583"
+         x="103.75446"
+         y="162.21596"
+         id="tspan24310-2"
+         class="label">Gazului</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="23.951494"
+       y="13.023356"
+       id="titlu"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:C059;-inkscape-font-specification:'C059, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="23.951494"
+         y="13.023356"
+         id="tspan3599">SPECIFICAȚIA PROCEDURII DE SUDARE PRELIMINARĂ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="75.62101"
+       y="20.049036"
+       id="subtitlu"><tspan
+         id="tspan21128"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.93889px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="75.62101"
+         y="20.049036">Conform EN ISO &lt;de completat&gt;</tspan></text>
+    <text
+       xml:space="preserve"
+       x="7.6190004"
+       y="29.900755"
+       id="text44039"><tspan
+         id="tspan44037"
+         style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="7.6190004"
+         y="29.900755"
+         class="value"><tspan
+   style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+   id="tspan53179"
+   class="label">Procedeul de sudare:</tspan> $nr_procedeu</tspan></text>
+    <text
+       xml:space="preserve"
+       x="7.9153333"
+       y="153.02849"
+       id="text44039-62"><tspan
+         id="tspan44037-9"
+         style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="7.9153333"
+         y="153.02849"
+         class="value"><tspan
+   style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+   id="tspan53179-90"
+   class="label">Temperatura de preincalzire:</tspan> $tpr</tspan></text>
+    <text
+       xml:space="preserve"
+       x="7.6190004"
+       y="36.818287"
+       id="text44039-6"><tspan
+         id="tspan44037-3"
+         style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="7.6190004"
+         y="36.818287"
+         class="value"><tspan
+   style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+   id="tspan53179-9"
+   class="label">Poziția de sudare:</tspan> $pozitia</tspan></text>
+    <text
+       xml:space="preserve"
+       x="105.41534"
+       y="30.079998"
+       id="text44039-8"><tspan
+         id="tspan44037-1"
+         style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="105.41534"
+         y="30.079998"
+         class="value"><tspan
+   style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+   id="tspan53179-2"
+   class="label">Tipul îmbinării:</tspan> $tip_imbinare</tspan></text>
+    <g
+       id="g174833"
+       transform="translate(-3.2213527,-1.2764981)">
+      <text
+         xml:space="preserve"
+         x="28.340353"
+         y="61.347168"
+         id="text44039-85"><tspan
+           style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+           id="tspan53179-96"
+           class="label">Denumire:</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="57.738754"
+         y="61.096329"
+         id="text44039-85-8"><tspan
+           id="tspan44037-0-8"
+           style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="57.738754"
+           y="61.096329"
+           class="value"> $nume_material1</tspan></text>
+    </g>
+    <g
+       id="g160164"
+       transform="translate(-3.2328765,10.568249)">
+      <text
+         xml:space="preserve"
+         x="28.340353"
+         y="61.347168"
+         id="text44039-85-7"><tspan
+           style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+           id="tspan53179-96-5"
+           class="label">Normă:</tspan></text>
+      <text
+         xml:space="preserve"
+         x="57.738754"
+         y="61.096329"
+         id="text44039-85-8-9"><tspan
+           id="tspan44037-0-8-6"
+           style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="57.738754"
+           y="61.096329"
+           class="value"> $norma1</tspan></text>
+    </g>
+    <g
+       id="g160164-5"
+       transform="translate(-3.095636,21.761601)">
+      <text
+         xml:space="preserve"
+         x="28.340353"
+         y="61.347168"
+         id="text44039-85-7-9"><tspan
+           style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+           id="tspan53179-96-5-7"
+           class="label">Grupă:</tspan></text>
+      <text
+         xml:space="preserve"
+         x="57.738754"
+         y="61.096329"
+         id="text44039-85-8-9-53"><tspan
+           id="tspan44037-0-8-6-8"
+           style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="57.738754"
+           y="61.096329"
+           class="value"> $grupa1</tspan></text>
+    </g>
+    <g
+       id="g160164-5-6"
+       transform="translate(-3.1621624,33.560864)">
+      <text
+         xml:space="preserve"
+         x="28.340353"
+         y="61.347168"
+         id="text44039-85-7-9-7"><tspan
+           style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+           id="tspan53179-96-5-7-5"
+           class="label">Grosime:</tspan></text>
+      <text
+         xml:space="preserve"
+         x="57.738754"
+         y="61.096329"
+         id="text44039-85-8-9-53-3"><tspan
+           id="tspan44037-0-8-6-8-5"
+           style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="57.738754"
+           y="61.096329"
+           class="value"> $grosime1</tspan></text>
+    </g>
+    <g
+       id="g174833-1"
+       transform="translate(-2.715024,45.418856)">
+      <text
+         xml:space="preserve"
+         x="28.340353"
+         y="61.347168"
+         id="text44039-85-2"><tspan
+           style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+           id="tspan53179-96-9"
+           class="label">Denumire:</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="57.738754"
+         y="61.096329"
+         id="text44039-85-8-3"><tspan
+           id="tspan44037-0-8-1"
+           style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="57.738754"
+           y="61.096329"
+           class="value"> $nume_material2</tspan></text>
+    </g>
+    <g
+       id="g160164-9"
+       transform="translate(-2.7268357,57.263597)">
+      <text
+         xml:space="preserve"
+         x="28.340353"
+         y="61.347168"
+         id="text44039-85-7-4"><tspan
+           style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+           id="tspan53179-96-5-78"
+           class="label">Normă:</tspan></text>
+      <text
+         xml:space="preserve"
+         x="57.738754"
+         y="61.096329"
+         id="text44039-85-8-9-4"><tspan
+           id="tspan44037-0-8-6-5"
+           style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="57.738754"
+           y="61.096329"
+           class="value"> $norma2</tspan></text>
+    </g>
+    <g
+       id="g160164-5-0"
+       transform="translate(-2.5694568,68.45695)">
+      <text
+         xml:space="preserve"
+         x="28.340353"
+         y="61.347168"
+         id="text44039-85-7-9-3"><tspan
+           style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+           id="tspan53179-96-5-7-6"
+           class="label">Grupă:</tspan></text>
+      <text
+         xml:space="preserve"
+         x="57.738754"
+         y="61.096329"
+         id="text44039-85-8-9-53-1"><tspan
+           id="tspan44037-0-8-6-8-0"
+           style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="57.738754"
+           y="61.096329"
+           class="value"> $grupa2</tspan></text>
+    </g>
+    <g
+       id="g160164-5-6-63"
+       transform="translate(-3.0858861,80.256205)">
+      <text
+         xml:space="preserve"
+         x="28.340353"
+         y="61.347168"
+         id="text44039-85-7-9-7-20"><tspan
+           style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+           id="tspan53179-96-5-7-5-6"
+           class="label">Grosime:</tspan></text>
+      <text
+         xml:space="preserve"
+         x="57.738754"
+         y="61.096329"
+         id="text44039-85-8-9-53-3-15"><tspan
+           id="tspan44037-0-8-6-8-5-5"
+           style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="57.738754"
+           y="61.096329"
+           class="value"> $grosime2</tspan></text>
+    </g>
+    <g
+       id="g160164-1"
+       transform="translate(75.278647,10.236391)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="28.340353"
+         y="61.347168"
+         id="text44039-85-7-7"><tspan
+           style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+           id="tspan53179-96-5-8"
+           class="label">Normă:</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="57.221352"
+         y="61.257275"
+         id="text44039-85-8-9-5"><tspan
+           id="tspan44037-0-8-6-7"
+           style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="57.221352"
+           y="61.257275"
+           class="value"> $norma_mat_adaos</tspan></text>
+    </g>
+    <g
+       id="g184368"
+       transform="translate(-6.2569367,11.338259)">
+      <g
+         id="g160164-1-8"
+         transform="translate(81.535584,10.571549)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="28.340353"
+           y="61.347168"
+           id="text44039-85-7-7-3"><tspan
+             style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+             id="tspan53179-96-5-8-1"
+             class="label">Dimensiuni:</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="57.221352"
+           y="61.257698"
+           id="text44039-85-8-9-5-8"><tspan
+             id="tspan44037-0-8-6-7-9"
+             style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+             x="57.221352"
+             y="61.257698"
+             class="value"> $dim_mat_adaos</tspan></text>
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       x="24.025759"
+       y="49.175549"
+       id="text100032"><tspan
+         id="tspan100030"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="24.025759"
+         y="49.175549"
+         class="capitol">MATERIALE DE BAZĂ</tspan></text>
+    <text
+       xml:space="preserve"
+       x="51.906471"
+       y="176.55347"
+       id="text100032-3"
+       style="line-height:0.5"><tspan
+         id="tspan100030-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="51.906471"
+         y="176.55347"
+         class="capitol">SCHEMA DE PREGATIRE </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="51.906471"
+         y="182.77512"
+         class="capitol"
+         id="tspan61456">A IMBINARILOR</tspan></text>
+    <text
+       xml:space="preserve"
+       x="124.2886"
+       y="49.207623"
+       id="text105960"><tspan
+         id="tspan105958"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="124.2886"
+         y="49.207623"
+         class="capitol">MATERIALE DE ADAOS</tspan></text>
+    <text
+       xml:space="preserve"
+       x="154.29163"
+       y="176.96234"
+       id="text105960-1"
+       style="line-height:0.5"><tspan
+         id="tspan105958-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="154.29163"
+         y="176.96234"
+         class="capitol">SUCCESIUNEA OPERTIILOR </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.264583"
+         x="154.29163"
+         y="183.18399"
+         class="capitol"
+         id="tspan71294">DE SUDARE</tspan></text>
+    <text
+       xml:space="preserve"
+       x="7.4524894"
+       y="78.188988"
+       id="text153372"><tspan
+         id="tspan153370"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="7.4524894"
+         y="78.188988"
+         class="capitol">MB1</tspan></text>
+    <text
+       xml:space="preserve"
+       x="7.4524894"
+       y="124.78658"
+       id="text153372-0"><tspan
+         id="tspan153370-9"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+         x="7.4524894"
+         y="124.78658"
+         class="capitol">MB2</tspan></text>
+    <g
+       id="g59015"
+       transform="translate(-13.107515,-10.681824)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="147.62285"
+         y="117.02556"
+         id="text48422"><tspan
+           id="tspan48420"
+           style="stroke-width:0.264583"
+           x="147.62285"
+           y="117.02556"
+           class="label">Tip:</tspan></text>
+      <text
+         xml:space="preserve"
+         x="155.25131"
+         y="117.02556"
+         id="text44039-85-8-9-53-3-1-8"><tspan
+           id="tspan44037-0-8-6-8-5-2-9"
+           style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="155.25131"
+           y="117.02556"
+           class="value"> $tip_el_nefuzibil</tspan></text>
+    </g>
+    <g
+       id="g159548"
+       transform="translate(75.278647,-1.0791981)">
+      <text
+         xml:space="preserve"
+         x="28.340353"
+         y="61.347168"
+         id="text44039-85-3"><tspan
+           style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+           id="tspan53179-96-0"
+           class="label">Marca:</tspan></text>
+      <text
+         xml:space="preserve"
+         x="57.221352"
+         y="60.899029"
+         id="text44039-85-8-4"><tspan
+           id="tspan44037-0-8-4"
+           style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="57.221352"
+           y="60.899029"
+           class="value"> $marca_mat_adaos</tspan></text>
+    </g>
+    <g
+       id="g160164-5-6-6"
+       transform="translate(75.299814,33.915927)">
+      <text
+         xml:space="preserve"
+         x="28.340353"
+         y="61.347168"
+         id="text44039-85-7-9-7-2"><tspan
+           style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+           id="tspan53179-96-5-7-5-9"
+           class="label">Uscare:</tspan></text>
+      <text
+         xml:space="preserve"
+         x="57.200188"
+         y="61.096329"
+         id="text44039-85-8-9-53-3-1"><tspan
+           id="tspan44037-0-8-6-8-5-2"
+           style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="57.200188"
+           y="61.096329"
+           class="value"> $uscare</tspan></text>
+    </g>
+    <g
+       id="g59023"
+       transform="translate(-10.191624,13.707756)">
+      <g
+         id="g59015-7"
+         transform="translate(-3.2122245,-12.533711)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+           x="147.62285"
+           y="117.02556"
+           id="text48422-6"><tspan
+             id="tspan48420-4"
+             style="stroke-width:0.264583"
+             x="147.62285"
+             y="117.02556"
+             class="label">Diametru:</tspan></text>
+        <text
+           xml:space="preserve"
+           x="169.00963"
+           y="117.02556"
+           id="text44039-85-8-9-53-3-1-8-3"><tspan
+             id="tspan44037-0-8-6-8-5-2-9-0"
+             style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+             x="169.00963"
+             y="117.02556"
+             class="value"> $diam_el_nefuzibil</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g59015-7-4"
+       transform="translate(-13.403848,12.655259)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="147.62285"
+         y="117.02556"
+         id="text48422-6-7"><tspan
+           id="tspan48420-4-7"
+           style="stroke-width:0.264583"
+           x="147.62285"
+           y="117.02556"
+           class="label">De protectie:</tspan></text>
+      <text
+         xml:space="preserve"
+         x="174.84738"
+         y="117.02556"
+         id="text44039-85-8-9-53-3-1-8-3-5"><tspan
+           id="tspan44037-0-8-6-8-5-2-9-0-4"
+           style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="174.84738"
+           y="117.02556"
+           class="value"> $gaz_protectie</tspan></text>
+    </g>
+    <g
+       id="g59015-7-4-5"
+       transform="translate(-13.403848,36.002923)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="147.62285"
+         y="117.02556"
+         id="text48422-6-7-8"><tspan
+           id="tspan48420-4-7-6"
+           style="stroke-width:0.264583"
+           x="147.62285"
+           y="117.02556"
+           class="label">De protectie:</tspan></text>
+      <text
+         xml:space="preserve"
+         x="174.84738"
+         y="117.02556"
+         id="text44039-85-8-9-53-3-1-8-3-5-2"><tspan
+           id="tspan44037-0-8-6-8-5-2-9-0-4-8"
+           style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="174.84738"
+           y="117.02556"
+           class="value"> $deb_gaz_protectie</tspan></text>
+    </g>
+    <g
+       id="g59015-7-2"
+       transform="translate(-13.403848,24.329096)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="147.62285"
+         y="117.02556"
+         id="text48422-6-8"><tspan
+           id="tspan48420-4-9"
+           style="stroke-width:0.264583"
+           x="147.62285"
+           y="117.02556"
+           class="label">La radacina:</tspan></text>
+      <text
+         xml:space="preserve"
+         x="173.31493"
+         y="117.02556"
+         id="text44039-85-8-9-53-3-1-8-3-3"><tspan
+           id="tspan44037-0-8-6-8-5-2-9-0-6"
+           style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="173.31493"
+           y="117.02556"
+           class="value"> $gaz_radacina</tspan></text>
+    </g>
+    <g
+       id="g59015-7-2-4"
+       transform="translate(-13.403848,47.676773)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+         x="147.62285"
+         y="117.02556"
+         id="text48422-6-8-7"><tspan
+           id="tspan48420-4-9-2"
+           style="stroke-width:0.264583"
+           x="147.62285"
+           y="117.02556"
+           class="label">La radacina:</tspan></text>
+      <text
+         xml:space="preserve"
+         x="173.31493"
+         y="117.02556"
+         id="text44039-85-8-9-53-3-1-8-3-3-4"><tspan
+           id="tspan44037-0-8-6-8-5-2-9-0-6-0"
+           style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.264583"
+           x="173.31493"
+           y="117.02556"
+           class="value"> $deb_gaz_radacina</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="line-height:0.4"
+       x="103.75446"
+       y="136.13138"
+       id="text20480-6"><tspan
+         id="tspan20478-9"
+         style="stroke-width:0.264583"
+         x="103.75446"
+         y="136.13138"
+         class="label">Gaz/Flux</tspan></text>
+    <text
+       xml:space="preserve"
+       x="7.9153333"
+       y="164.70233"
+       id="text44039-81"
+       style="font-size:11.5823px;stroke-width:0.965194"><tspan
+         id="tspan44037-31"
+         style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.255374"
+         x="7.9153333"
+         y="164.70233"
+         class="value"><tspan
+   style="font-style:normal;font-variant:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.255374"
+   id="tspan53179-1"
+   class="label">Temperatura intre straturi:</tspan> $t_strat</tspan></text>
+  </g>
+  <g
+     id="sectiune">
+    <!-- section-img -->
+  </g>
+  <metadata
+     id="metadata92760">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>WPS Template</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Yehoslav Rudenco</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-nc/4.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-nc/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:prohibits
+           rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
