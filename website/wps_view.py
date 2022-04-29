@@ -126,6 +126,6 @@ def preview_wps():
         )
 
         dwg = generate_svg(message)
-        return dwg.replace("210mm", "157.5mm").replace("297mm", "222.75mm")
+        return dwg.replace("210mm", "100%").replace("297mm", "auto")
 
     return render_template("wps_input.html", dwg="")
