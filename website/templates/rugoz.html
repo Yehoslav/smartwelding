@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block body %}
+<h3>
+    Calcularea rugozitatii.
+</h3>
+
+<div class="card">
+    <h4 class="card-header">Rezultat</h4>
+    <div class="card-body">
+        <div class="card-text mb-3">Rug = <span id="raspuns"></span></div>
+        <div class="input-group mb-2">
+            <label class="input-group-text" for="inputGroupSelect01">Raze</label>
+            <select class="form-select" id="raza">
+                <option value="0.2" selected>0.2</option>
+                <option value="0.8">0.8</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+
+        <div class="input-group mb-2">
+            <label class="input-group-text" for="inputGroupSelect01">Avansuri</label>
+            <select class="form-select" id="avans">
+                <option value="0.052" selected>0.052</option>
+                <option value="0.065">0.065</option>
+                <option value="0.081">0.081</option>
+                <option value="0.104">0.104</option>
+                <option value="0.13">0.13</option>
+                <option value="0.162">0.162</option>
+                <option value="0.208">0.208</option>
+            </select>
+        </div>
+    </div>
+
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript" src="{{ url_for('static', filename='js/rugoz.js') }}"></script>
+{% endblock %}
