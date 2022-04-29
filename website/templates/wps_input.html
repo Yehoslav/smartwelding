@@ -1,216 +1,291 @@
 {% extends "base.html" %}
 {% block title %}WPS-form{% endblock %}
 {% block style %}
-.wps-view {
-    width: 157.5mm;
-    height: 222.75mm;
+
+.hidden {
+    display: none;
 }
+
 {% endblock %}
 
 {% block body %}
-<h1>Here you can create a WPS</h1>
 
-<div class="row">
-    <div class="column form-view" id="form-view">
-        <form method="post">
 
-            <div class="card">
-                <h3>Material de baza 1:</h3>
-                <div class="base-material grid" id="material1">
-                    <label for="steel-grade1">Denumirea:</label>
-                    <div>
-                        <input type="text"
-                               name="steelNorm1"
-                               class="input"
-                               id="steelNorm1"
-                               list="material-norm-list"
-                               placeholder="Norma">
-                        <datalist id="material-norm-list">
-                            <option value="EN 10025-2">
-                        </datalist>
-                        <input type="text"
-                               name="steelGrade1"
-                               class="input"
-                               id="steelGrade1">
-                    </div>
-                    <label for="steelGroup1">Grupa:</label>
-                    <input type="text"
-                           name="steelGroup1"
-                           class="input"
-                           id="steelGroup1">
-                    <label for="thickness1">Grosime:</label>
-                    <input type="number"
-                           name="thickness1"
-                           class="input"
-                           id="thickness1"
-                           min="0"
-                           step="0.1"
-                           onchange="checkNumberField(this);">
-                    <input type="checkbox" name="similarMaterial" id="similarMaterial" value="same" checked>
-                    <label for="similarMaterial">La fel ca al doilea material</label>
-                </div>
-            </div>
 
-            <div class="card hidden" id="material2">
-                <h3>Material de baza 2:</h3>
-                <div class="base-material grid">
-                    <label for="steel-grade2">Denumirea:</label>
-                    <div>
-                        <input type="text" name="steelNorm2"
-                               class="input"
-                               id="steelNorm2"
-                               list='material-norm-list'
-                               placeholder="Norma">
-                        <input type="text"
-                               name="steelGrade2"
-                               class="input"
-                               id="steelGrade2">
-                    </div>
-                    <label for="steelGroup2">Grupa:</label>
-                    <input type="text"
-                           name="steelGroup2"
-                           class="input"
-                           id="steelGroup2">
-                    <label for="thickness2">Grosime:</label>
-                    <input type="number"
-                           name="thickness2"
-                           class="input"
-                           id="thickness2"
-                           min="0"
-                           step="0.1"
-                           onchange="checkNumberField(this);">
-                </div>
-            </div>
-
-            <div class="card">
-                <h3>Material de adaos:</h3>
-                <div class="grid">
-                    <label for="process">Precedeul de sudare:</label>
-                    <select name="process" id="process" onchange="changeFillerStandards()">
-                        <option value="111" selected>111 - Sudare Manuala cu Electrod Invelit</option>
-                        <option value="131">131 - MIG (Metal Inert Gas)</option>
-                        <option value="135">135 - MAG (Metal Active Gas)</option>
-                        <option value="141">141 - WIG/TIG (Wolfram/Tungsten Inert Gas)</option>
-                    </select>
-                    <label for="fillerMaterial">Denumirea:</label>
-                    <div id='filler-input'>
-                        <input type="text"
-                               class="input"
-                               name="fillerNorm"
-                               id="fillerNorm"
-                               list="norm-list"
-                               placeholder="Norma">
-                        <span class="err-message" style="display: none;">
-                            Standard does not exist or is not yet implemented.
-                        </span>
-                        <datalist id="norm-list">
-                            <option value="ISO 2560-A">
-                            <option value="ISO 2560-B">
-                            <option value="ISO 14341-A">
-                        </datalist>
-                        <input type="text"
-                               name="fillerMaterial"
-                               class="input"
-                               id="fillerMaterial"
-                               onchange="checkFillerMaterial(this);">
-                        <button type="button" style="width: 40px"
-                                onclick="console.log('on hover popup(add manufacturer\'s brand)\nonclick(add new input field)')">+</button>
-                    </div>
-                    <label for="fillerThickness">Dimensiuni:</label>
-                    <select name="fillerThickness" id="fillerThickness">
-                        <option value="2">2 mm</option>
-                        <option value="2.5">2.5 mm</option>
-                        <option value="3.2" selected>3.2 mm</option>
-                        <option value="4">4 mm</option>
-                        <option value="5">5 mm</option>
-                    </select>
-                    <input type="checkbox"
-                           name="drying"
-                           class="input"
-                           id="drying">
-                    <label for="drying">se usuca</label>
-                </div>
-            </div>
-
-            <div class="card hidden" id="refractary">
-                <h3>Electrod nefuzibil:</h3>
-                <div class="grid">
-                    <label for="refractaryType">Tip:</label>
-                    <input class="input"
-                           id="refractaryType"
-                           type="text"
-                           name="refractaryType">
-                    <label for="refractaryDiameter">Diametru:</label>
-                    <select name="refractaryDiameter" id="refractaryDiameter">
-                        <option value="0.5">0.5 mm</option>
-                        <option value="1.0">1.0 mm</option>
-                        <option value="1.6">1.6 mm</option>
-                        <option value="2.4">2.4 mm</option>
-                        <option value="3.2">3.2 mm</option>
-                        <option value="6.4" selected>6.4 mm</option>
-                        <option value="8.0">8.0 mm</option>
-                        <!-- Diametre luate din cursul bpsa cu dnl Pascu -->
-                    </select>
-                </div>
-            </div>
-
-            <div class="card hidden" id="gas">
-                <h3>Gaz:</h3>
-                <div class="grid">
-                    <label for="gasCoverType">De protectie:</label>
-                    <input class="input"
-                           id="gasCoverType"
-                           type="text"
-                           name="gasCoverType">
-                    <label for="gasCoverDebit">Debit:</label>
-                    <input class="input"
-                           id="gasCoverDebit"
-                           name="gasCoverDebit"
-                           type="number"
-                           onchange="checkNumberField(this);">
-                    <label for="gasRootType">La radacina:</label>
-                    <input class="input"
-                           id="gasRootType"
-                           name="gasRootType"
-                           type="text">
-                    <label for="gasRootDebit">Debit:</label>
-                    <input class="input"
-                           id="gasRootDebit"
-                           name="gasRootDebit"
-                           type="number"
-                           onchange="checkNumberField(this);">
-                </div>
-            </div>
-
-            <div class="card">
-                <h3>Tratamente termice</h3>
-                <div class="grid">
-                    <label for="preheat">Preincalzire:</label>
-                    <input class="input"
-                           type="number"
-                           name="preheat"
-                           id="preheat"
-                           onchange="checkNumberField(this);">
-                    <label for="postheat">Postincalzire:</label>
-                    <input class="input"
-                           type="number"
-                           name="postheat"
-                           id="postheat"
-                           onchange="checkNumberField(this);">
-                </div>
-            </div>
-            <br>
-
-            <input type="button" value="Previzualizeaza WPS" name="button" onclick="submitWPS(this.form)">
-
-            <!-- <button type="button">Submit</button> -->
-        </form>
+<div class="container text-left">
+    <div class="row">
+        <h1>Here you can create a WPS</h1>
     </div>
+    <div class="row content">
+        <div class="col-xl form-view" id="form-view">
+            <form method="post">
 
-    <div class="column wps-view" id="wps-view">
-        {{ dwg }}
+                <div class="card">
+                    <div class="card-body" id="material1">
+                        <h4 class="card-title">Material de baza 1:</h4>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">Otel:</span>
+                            <input type="text"
+                                   name="steelNorm1"
+                                   class="form-control w-60"
+                                   id="steelNorm1"
+                                   placeholder="Norma"
+                                   aria-label="Norma"
+                                   list="material-norm-list">
+                            <datalist id="material-norm-list">
+                                <option value="EN 10025-2">
+                            </datalist>
+                            <input type="text"
+                                   name="steelGrade1"
+                                   class="form-control"
+                                   aria-label="Marca"
+                                   placeholder="Marca"
+                                   id="steelGrade1">
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">Grupa:</span>
+                            <input type="text"
+                                   name="steelGroup1"
+                                   class="form-control"
+                                   id="steelGroup1">
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">Grosime:</span>
+                            <input type="number"
+                                   name="thickness1"
+                                   class="form-control"
+                                   id="thickness1"
+                                   min="0"
+                                   step="0.1"
+                                   onchange="checkNumberField(this);">
+                        </div>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input"
+                                   type="checkbox"
+                                   name="similarMaterial"
+                                   id="similarMaterial"
+                                   role="switch"
+                                   value="same" checked>
+                            <label for="similarMaterial"
+                                   class="form-checked-label">
+                                La fel ca al doilea material</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card hidden" id="material2">
+                    <div class="card-body">
+                        <h4 class="card-title">Material de baza 2:</h4>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">Otel:</span>
+                            <input type="text"
+                                   name="steelNorm2"
+                                   class="form-control w-60"
+                                   id="steelNorm2"
+                                   placeholder="Norma"
+                                   aria-label="Norma"
+                                   list="material-norm-list">
+                            <input type="text"
+                                   name="steelGrade2"
+                                   class="form-control"
+                                   aria-label="Marca"
+                                   placeholder="Marca"
+                                   id="steelGrade2">
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">Grupa:</span>
+                            <input type="text"
+                                   name="steelGroup2"
+                                   class="form-control"
+                                   id="steelGroup2">
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">Grosime:</span>
+                            <input type="number"
+                                   name="thickness2"
+                                   class="form-control"
+                                   id="thickness2"
+                                   min="0"
+                                   step="0.1"
+                                   onchange="checkNumberField(this);">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Material de adaos:</h4>
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="process">Precedeul:</label>
+                            <select name="process"
+                                    id="process"
+                                    class="form-select"
+                                    onchange="changeFillerStandards()">
+                                <option value="111" selected>111 - Sudare Manuala cu Electrod Invelit</option>
+                                <option value="131">131 - MIG (Metal Inert Gas)</option>
+                                <option value="135">135 - MAG (Metal Active Gas)</option>
+                                <option value="141">141 - WIG/TIG (Wolfram/Tungsten Inert Gas)</option>
+                            </select>
+                        </div>
+                        <div id='filler-input' class="input-group mb-3">
+                            <label class="input-group-text"
+                                   id="fillerNameLabel"
+                                   for="fillerNorm">Sarma:</label>
+                            <input type="text"
+                                   class="form-control"
+                                   name="fillerNorm"
+                                   id="fillerNorm"
+                                   list="norm-list"
+                                   placeholder="Norma">
+                            <datalist id="norm-list">
+                                <option value="ISO 2560-A">
+                                <option value="ISO 2560-B">
+                                <option value="ISO 14341-A">
+                            </datalist>
+                            <input type="text"
+                                   name="fillerMaterial"
+                                   class="form-control"
+                                   id="fillerMaterial"
+                                   onchange="checkFillerMaterial(this);">
+                            <button type="button"
+                                    style="width: 40px"
+                                    class="btn btn-outline-secondary"
+                                    onclick="console.log('on hover popup(add manufacturer\'s brand)\nonclick(add new input field)')">+</button>
+                        </div>
+                        <div class="input-group mb-3">
+                            <label for="fillerThickness"
+                                   class="input-group-text">
+                                Diametru:</label>
+                            <select name="fillerThickness"
+                                    id="fillerThickness"
+                                    class="form-select">
+                                <option value="2">2 mm</option>
+                                <option value="2.5">2.5 mm</option>
+                                <option value="3.2" selected>3.2 mm</option>
+                                <option value="4">4 mm</option>
+                                <option value="5">5 mm</option>
+                            </select>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox"
+                                   name="drying"
+                                   class="form-check-input"
+                                   id="drying">
+                            <label for="drying"
+                                   class="form-check-label">
+                                se usuca</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" id="refractary">
+                    <div class="card-body">
+                        <h4 class="card-title">Electrod nefuzibil:</h4>
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="refractaryType">Tip:</label>
+                            <input class="form-control"
+                                   id="refractaryType"
+                                   type="text"
+                                   name="refractaryType">
+                        </div>
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="refractaryDiameter">Diametru:</label>
+                            <select class="form-select" name="refractaryDiameter" id="refractaryDiameter">
+                                <option value="0.5">0.5 mm</option>
+                                <option value="1.0">1.0 mm</option>
+                                <option value="1.6">1.6 mm</option>
+                                <option value="2.4">2.4 mm</option>
+                                <option value="3.2">3.2 mm</option>
+                                <option value="6.4" selected>6.4 mm</option>
+                                <option value="8.0">8.0 mm</option>
+                                <!-- Diametre luate din cursul bpsa cu dnl Pascu -->
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card" id="gas">
+                    <div class="card-body">
+                        <h4 class="card-title">Gaz:</h4>
+                        <h6 class="card-subtitle text-muted">De protectie:</h6>
+                        <div class="input-group mb-3">
+                            <label class="input-group-text"
+                                   for="gasCoverType">
+                                Marca:</label>
+                            <input class="form-control"
+                                   id="gasCoverType"
+                                   type="text"
+                                   name="gasCoverType">
+                        </div>
+                        <div class="input-group mb-3">
+                            <label class="input-group-text"
+                                   for="gasCoverDebit">
+                                Debit:</label>
+                            <input class="form-control"
+                                   id="gasCoverDebit"
+                                   name="gasCoverDebit"
+                                   type="number"
+                                   onchange="checkNumberField(this);">
+                        </div>
+                        <h6 class="card-subtitle text-muted">De radacina:</h6>
+                        <div class="input-group mb-3">
+                            <label class="input-group-text" for="gasRootType">
+                                Marca:</label>
+                            <input class="form-control"
+                                   id="gasRootType"
+                                   name="gasRootType"
+                                   type="text">
+                        </div>
+                        <div class="input-group mb-3">
+                            <label class="input-group-text"
+                                   for="gasRootDebit">
+                                Debit:</label>
+                            <input class="form-control"
+                                   id="gasRootDebit"
+                                   name="gasRootDebit"
+                                   type="number"
+                                   onchange="checkNumberField(this);">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Tratamente termice</h4>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">Preincalzire:</span>
+                            <input class="form-control"
+                                   type="number"
+                                   name="preheat"
+                                   id="preheat"
+                                   onchange="checkNumberField(this);">
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">Postincalzire:</span>
+                            <input class="form-control"
+                                   type="number"
+                                   name="postheat"
+                                   id="postheat"
+                                   onchange="checkNumberField(this);">
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <input type="button" value="Previzualizeaza WPS" name="button" onclick="submitWPS(this.form)" class="btn btn-outline-primary">
+                <!-- <button type="button">Submit</button> -->
+            </form>
+        </div>
+        <div class="col-sm text-right" id="wps-preview">
+            <h3>WPS Preview</h3>
+            {{ dwg }}
+            <div id="wps-view" class="card wps-preview"></div>
+        </div>
     </div>
 </div>
+
+
 <script type="text/javascript" src="/static/js/wps.js"></script>
 
 
